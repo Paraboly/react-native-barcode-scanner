@@ -1,8 +1,11 @@
 {
-  "name": "react-native-library-boilerplate",
-  "version": "0.0.2",
-  "description": "Description for library",
+  "name": "@paraboly/react-native-barcode-scanner",
+  "version": "0.1.0",
+  "description": "Basic barcode scanner for React Native by Paraboly",
   "keywords": [
+    "barcode",
+    "scanner",
+    "barcode-scanner",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -13,14 +16,15 @@
     "ui-lib",
     "rn"
   ],
-  "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
+  "homepage": "https://www.paraboly.com",
+  "bugs": "https://github.com/Paraboly/react-native-barcode-scanner/issues",
   "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "repository": "git@github.com:Paraboly/react-native-barcode-scanner.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x.x",
-    "react-native": ">= 0.55.x"
+    "react-native": ">= 0.55.x",
+    "react-native-camera": ">= 3.31.0"
   }
 }
