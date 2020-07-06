@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-barcode-scanner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic barcode scanner for React Native by Paraboly",
   "keywords": [
     "barcode",
@@ -18,7 +18,7 @@
   ],
   "homepage": "https://www.paraboly.com",
   "bugs": "https://github.com/Paraboly/react-native-barcode-scanner/issues",
-  "main": "./lib/src/index.js",
+  "main": "./lib/BarcodeScanner.js",
   "repository": "git@github.com:Paraboly/react-native-barcode-scanner.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
