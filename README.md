@@ -26,6 +26,16 @@ npm i @paraboly/react-native-barcode-scanner
 "react-native-camera": ">= 3.31.0"
 ```
 
+## Do not forget to add this on Podfile
+
+```swift
+pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+    'TextDetector',
+    'FaceDetectorMLKit',
+    'BarcodeDetectorMLKit'
+  ]
+```
+
 # Usage
 
 ## Import
