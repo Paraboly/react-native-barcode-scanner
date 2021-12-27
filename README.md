@@ -26,7 +26,8 @@ npm i @paraboly/react-native-barcode-scanner
 "react-native-camera": ">= 3.31.0"
 ```
 
-## Do not forget to add this on Podfile
+## iOS Installation
+Do not forget to add this on Podfile
 
 ```swift
 pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
@@ -34,6 +35,14 @@ pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs
     'FaceDetectorMLKit',
     'BarcodeDetectorMLKit'
   ]
+```
+
+## Android Installation
+
+In app -> build.gradle -> defaultConfig add this line
+
+```gradle
+missingDimensionStrategy 'react-native-camera', 'general' 
 ```
 
 # Usage
